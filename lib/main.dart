@@ -1,4 +1,5 @@
 import 'package:counter_app/views/home_view.dart';
+import 'package:counter_app/widgets/custom_counter.dart';
 import 'package:flutter/material.dart';
 
 const Color primaryColor = Color(0xFF2196F3);
@@ -6,7 +7,7 @@ const String appTitle = 'Compteur App';
 const String secondPageTitle = 'Seconde page';
 
 void main() {
-  runApp(const MyApp());
+  runApp(CustomCounter());
 }
 
 class MyApp extends StatelessWidget {
