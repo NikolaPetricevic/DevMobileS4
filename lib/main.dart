@@ -7,7 +7,7 @@ const String appTitle = 'Compteur App';
 const String secondPageTitle = 'Seconde page';
 
 void main() {
-  runApp(CustomCounte());
+  runApp(CustomCounter());
 }
 
 class MyApp extends StatelessWidget {
